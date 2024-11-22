@@ -11,7 +11,11 @@ public class Suma {
         int resultado;
 
         resultado = this.a + this.b;
-        
+
         return resultado;
+    }
+
+    public String autenticacion(){
+        return "Esas autenticado";
     }
 }
